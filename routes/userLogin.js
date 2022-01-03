@@ -2,7 +2,7 @@
  * @Author: naman jain(namanj975@gmail.com) 
  * @Date: 2021-12-30 12:57:11 
  * @Last Modified by: naman jain(namanj975@gmail.com)
- * @Last Modified time: 2021-12-30 21:14:27
+ * @Last Modified time: 2022-01-03 22:36:02
  */
 import User from '../db/schema/users';
 import Role from '../db/schema/role';
@@ -45,7 +45,6 @@ const validateUser = (user,password) => new Promise((resolve,reject) => {
  */
 const userLogin = async (req,res) =>{
     try {
-        // let Adminroles = await Role.find({name:{$in : ["admin", "superAdmin"]}}).select("role_id");
         if (req.body && req.body.email && req.body.password) {
             let requiredUser= await User.findOne({ email : req.body.email }).select("email role_id password is_active first_name");
             console.log("required user",requiredUser);
