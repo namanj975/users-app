@@ -1,0 +1,51 @@
+[
+    {
+        "firstName": "Oliver",
+        "lastName": "Jake",
+        "isActive": true,
+        "role": "student",
+        "registeredAt": 1625112000000
+    },
+    {
+        "firstName": "Connor",
+        "lastName": "Liam",
+        "isActive": true,
+        "role": "student",
+        "registeredAt": 1609477200000
+    },
+    {
+        "firstName": "Charlie",
+        "lastName": "",
+        "isActive": true,
+        "role": "admin",
+        "registeredAt": 1619841600000
+    },
+    {
+        "firstName": "Thomas",
+        "lastName": "",
+        "isActive": true,
+        "role": "student",
+        "registeredAt": 1612155600000
+    },
+    {
+        "firstName": "George",
+        "lastName": "Reece",
+        "isActive": true,
+        "role": "superAdmin",
+        "registeredAt": 1614574800000
+    },
+    {
+        "firstName": "Oscar",
+        "lastName": "Rhys",
+        "isActive": false,
+        "role": "superAdmin",
+        "registeredAt": 1617249600000
+    },
+    {
+        "firstName": "William",
+        "lastName": "Damian",
+        "isActive": false,
+        "role": "student",
+        "registeredAt": 1609477200000
+    }
+]
